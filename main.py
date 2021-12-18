@@ -1,8 +1,9 @@
 import random
-from primePy import primes
+from decimal import Decimal
+
 import numpy as np
 from pipe import where
-from decimal import Decimal
+from primePy import primes
 
 SEED_MAX = int(1e5)
 X_MAX = int(1e2)
